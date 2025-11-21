@@ -20,10 +20,8 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [language, setLanguageState] = useState<Language>('it');
   const [translations, setTranslations] = useState<Translations>({});
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
     const savedLanguage = localStorage.getItem('language') as Language | null;
     if (savedLanguage) {
       setLanguageState(savedLanguage);
@@ -63,10 +61,6 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
     return typeof value === 'string' ? value : key;
   };
-
-  if (!mounted) {
-    return <>{children}</>;
-  }
 
   return (
     <LanguageContext.Provider value={{ language, setLanguage, translations, t }}>
