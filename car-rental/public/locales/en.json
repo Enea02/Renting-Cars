@@ -1,0 +1,65 @@
+{
+  "common": {
+    "appName": "Premium Car Rental",
+    "welcome": "Welcome",
+    "bookNow": "Book Now",
+    "viewDetails": "View Details",
+    "loading": "Loading...",
+    "error": "Error"
+  },
+  "hero": {
+    "title": "Discover Freedom on Four Wheels",
+    "subtitle": "Rent your dream car for every occasion",
+    "cta": "Explore Fleet"
+  },
+  "cars": {
+    "title": "Our Fleet",
+    "filters": {
+      "all": "All",
+      "sedan": "Sedan",
+      "suv": "SUV",
+      "sport": "Sport",
+      "electric": "Electric",
+      "van": "Van",
+      "compact": "Compact"
+    },
+    "perDay": "per day",
+    "seats": "seats",
+    "transmission": "Transmission",
+    "fuel": "Fuel",
+    "automatic": "Automatic",
+    "manual": "Manual",
+    "gasoline": "Gasoline",
+    "diesel": "Diesel",
+    "electric": "Electric",
+    "hybrid": "Hybrid"
+  },
+  "booking": {
+    "title": "Complete Your Booking",
+    "pickupDate": "Pickup Date",
+    "returnDate": "Return Date",
+    "pickupLocation": "Pickup Location",
+    "personalInfo": "Personal Information",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "continueToPayment": "Continue to Payment"
+  },
+  "payment": {
+    "title": "Payment Details",
+    "cardNumber": "Card Number",
+    "cardHolder": "Card Holder",
+    "expiryDate": "Expiry Date",
+    "cvv": "CVV",
+    "total": "Total",
+    "confirmPayment": "Confirm Payment",
+    "processingPayment": "Processing..."
+  },
+  "footer": {
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "terms": "Terms and Conditions",
+    "privacy": "Privacy Policy"
+  }
+}

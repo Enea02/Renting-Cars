@@ -1,0 +1,65 @@
+{
+  "common": {
+    "appName": "Premium Car Rental",
+    "welcome": "Benvenuto",
+    "bookNow": "Prenota Ora",
+    "viewDetails": "Dettagli",
+    "loading": "Caricamento...",
+    "error": "Errore"
+  },
+  "hero": {
+    "title": "Scopri la Libertà su Quattro Ruote",
+    "subtitle": "Noleggia l'auto dei tuoi sogni per ogni occasione",
+    "cta": "Esplora la Flotta"
+  },
+  "cars": {
+    "title": "La Nostra Flotta",
+    "filters": {
+      "all": "Tutte",
+      "sedan": "Berlina",
+      "suv": "SUV",
+      "sport": "Sportiva",
+      "electric": "Elettrica",
+      "van": "Van",
+      "compact": "Compatta"
+    },
+    "perDay": "al giorno",
+    "seats": "posti",
+    "transmission": "Cambio",
+    "fuel": "Carburante",
+    "automatic": "Automatico",
+    "manual": "Manuale",
+    "gasoline": "Benzina",
+    "diesel": "Diesel",
+    "electric": "Elettrico",
+    "hybrid": "Ibrido"
+  },
+  "booking": {
+    "title": "Completa la Prenotazione",
+    "pickupDate": "Data Ritiro",
+    "returnDate": "Data Riconsegna",
+    "pickupLocation": "Luogo Ritiro",
+    "personalInfo": "Informazioni Personali",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "Email",
+    "phone": "Telefono",
+    "continueToPayment": "Procedi al Pagamento"
+  },
+  "payment": {
+    "title": "Dettagli Pagamento",
+    "cardNumber": "Numero Carta",
+    "cardHolder": "Intestatario Carta",
+    "expiryDate": "Scadenza",
+    "cvv": "CVV",
+    "total": "Totale",
+    "confirmPayment": "Conferma Pagamento",
+    "processingPayment": "Elaborazione in corso..."
+  },
+  "footer": {
+    "aboutUs": "Chi Siamo",
+    "contact": "Contatti",
+    "terms": "Termini e Condizioni",
+    "privacy": "Privacy Policy"
+  }
+}
